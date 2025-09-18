@@ -696,8 +696,8 @@ VALUES
 
 }
 .value {
-    margin-top: 32px;
-    margin-right: 32px;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
 .value__title {
     display: flex;
@@ -771,17 +771,17 @@ PRICING
 }
 .plan {
     position: relative;
-    margin-top: 64px;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 384px;
-    border-radius: 8px;
+    max-width: 24rem;
+    border-radius: 0.5rem;
     background-color: rgb(255, 255, 255);
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-right: 32px;
-    padding-top: 8px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
     text-align: center;
     color: rgb(26, 32, 44);
      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
@@ -801,15 +801,15 @@ PRICING
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 .plan__top {
     display: flex;
     flex-direction: column;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     line-height: 1.625;
 }
 .plan:nth-child(odd) .plan__name,
@@ -834,7 +834,7 @@ PRICING
 }
 .plan__duration {
     font-size: 16px;
-    letter-spacing: 1.6px;
+    letter-spacing: 0.1em;
 }
 .plan:nth-child(1) .plan__middle,
 .plan:nth-child(3) .plan__middle {
@@ -842,18 +842,18 @@ PRICING
     border-bottom: 2px solid rgb(229, 231, 235);
 }
 .plan__middle {
-    margin-left: -32px;
-    margin-right: -32px;
+    margin-left: -2rem;
+    margin-right: -2rem;
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
-    padding: 32px;
+    padding: 2rem;
 }
 .plan__target {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
-    letter-spacing: 0.40px;
+    letter-spacing: 0.025em;
 }
 .plan__feature {
     margin-top: 20px;
@@ -863,19 +863,19 @@ PRICING
     line-height: 1.5;
 }
 .plan__bottom {
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .plan__button {
-    font-size: 14px;
-    padding: 12px 32px;
+    font-size: 0.875rem;
+    padding: 0.75rem 2rem;
     color: #f7fafc;
-    border-radius: 9999px;
+    border-radius: 0.25rem;
     width: 100%;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 700;
     transition: all 300ms ease;
     letter-spacing: 0.05em;  
@@ -936,7 +936,10 @@ PRICING
 TESTIMONIALS
 
 */
-
+#testimonials .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
 #testimonials .row {
     margin-left: auto;
     margin-right: auto;
@@ -969,15 +972,15 @@ TESTIMONIALS
 }
 
 .testimonial__title {
-    margin-top: 16px;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 1.25rem;
     line-height: 1.625;
     font-weight: 700;
 }
 .testimonial__para {
-    margin-top: 16px;
-    margin-bottom: 32px;
-    font-weight:500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
     line-height: 1.625;
     font-size: 16px;
     color: rgb(74 85 104);
@@ -999,7 +1002,7 @@ TESTIMONIALS
     margin-left: 24px;
 }
 .testimonial__name {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.625;
     font-weight: 700;
     color: #4a5568;
@@ -1032,8 +1035,8 @@ TESTIMONIALS
     height: 16px;
 }
 .divider {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     border-right-width: 1px;
     width: 0.5px;
     background-color: #edf2f7;
@@ -1054,8 +1057,8 @@ START
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 320px;
-    width: 320px;
+    height: 20rem;
+    width: 20rem;
     transform: translate(-80px, 128px);
     color: rgb(80, 17, 204);
     opacity: 0.5;
@@ -1064,8 +1067,8 @@ START
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 320px;
-    width: 320px;
+    height: 20rem;
+    width: 20rem;
     transform: translate(80px, -256px);
     color: rgb(80, 17, 204);
     opacity: 0.5;
@@ -1307,8 +1310,8 @@ MOBILE RESPONSIVENESS
         max-width: none;
     }
     .plan__bottom {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .testimonials__img {
         width: 40%;
@@ -1382,7 +1385,7 @@ MOBILE RESPONSIVENESS
         padding-right: 48px;
     }
     .value {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     .values__list {
         max-width: 320px;
@@ -1400,15 +1403,15 @@ MOBILE RESPONSIVENESS
         font-size: 48px;
     }
     #testimonials .container {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
     .testimonials__description {
         padding-left: 48px;
     }
     #start .container {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
     .start__row {
         flex-direction: column;
@@ -1472,6 +1475,7 @@ MOBILE RESPONSIVENESS
     #steps .row,
     #testimonials .row {
         flex-direction: column;
+        align-items: center;
     }
     .step {
         flex-direction: column;
