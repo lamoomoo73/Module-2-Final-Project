@@ -16,6 +16,7 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto; 
+  box-sizing: border-box;
 }
 
 .row__narrow {
@@ -50,7 +51,9 @@ h1 {
 .purple {
     color: #6415ff;
 }
-
+.section {
+    padding: 0 32px;
+}
 .section__tag {
     font-size: 16px;
     color: #6415ff;
@@ -1088,6 +1091,8 @@ START
 
 */
 
+
+
 #start .row {
     position: relative;
     overflow: hidden;
@@ -1098,7 +1103,7 @@ START
     left: 0px;
     height: 20rem;
     width: 20rem;
-    transform: translate(-80px, 128px);
+    transform: translate(-5rem, 8rem);
     color: rgb(80, 17, 204);
     opacity: 0.5;
 }
@@ -1108,27 +1113,24 @@ START
     right: 0px;
     height: 20rem;
     width: 20rem;
-    transform: translate(80px, -256px);
+    transform: translate(5rem, -16rem);
     color: rgb(80, 17, 204);
     opacity: 0.5;
 }
 .start__container {
-    padding: 96px 28px;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: auto;
+    padding: 96px 0;
+    width: 100%;
     background-color: rgb(100, 21, 255);
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
 .start__row {
     width: 100%;
-    margin: 0 auto;
     max-width: 1024px;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 32px;
     display: flex;
     justify-content: center;
     align-items: center;
